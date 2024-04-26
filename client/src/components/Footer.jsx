@@ -12,8 +12,8 @@ export default function FooterCom() {
   return (
     <Footer container className="border-t-8 border-teal-500">
       <div className="w-full max-w-7xl mx-auto">
-        <div className="grid w-full justify-between sm:flex md:grid-col">
-          <div className="mt-5">
+        <div className="grid w-full sm:justify-between justify-normal sm:flex md:grid-col">
+          <div className="mt-5 mr-5">
             <Link
               to="/"
               className="self-center whitespace-nowrwap text-lg sm:text-xl font-semibold dark:text-white"
